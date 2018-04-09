@@ -104,7 +104,7 @@ namespace BME280 {
     /**
      * get pressure
      */
-    //% blockId="BMP280_GET_PRESSURE" block="»ñÈ¡ÆøÑ¹"
+    //% blockId="BMP280_GET_PRESSURE" block="è·å–æ°”å‹"
     //% weight=80 blockGap=8
     export function pressure(): number {
         get();
@@ -114,7 +114,7 @@ namespace BME280 {
     /**
      * get temperature
      */
-    //% blockId="BMP280_GET_TEMPERATURE" block="»ñÈ¡ÎÂ¶È"
+    //% blockId="BMP280_GET_TEMPERATURE" block="è·å–æ¸©åº¦"
     //% weight=80 blockGap=8
     export function temperature(): number {
         get();
@@ -124,7 +124,7 @@ namespace BME280 {
     /**
      * get humidity
      */
-    //% blockId="BMP280_GET_HUMIDITY" block="»ñÈ¡Êª¶È"
+    //% blockId="BMP280_GET_HUMIDITY" block="è·å–æ¹¿åº¦"
     //% weight=80 blockGap=8
     export function hunidity(): number {
         get();
@@ -134,7 +134,7 @@ namespace BME280 {
     /**
      * power on
      */
-    //% blockId="BMP280_POWER_ON" block="ÔËĞĞÄ£Ê½"
+    //% blockId="BMP280_POWER_ON" block="è¿è¡Œæ¨¡å¼"
     //% weight=61 blockGap=8
     export function PowerOn() {
         setreg(0xF4, 0x2F)
@@ -143,7 +143,7 @@ namespace BME280 {
     /**
      * power off
      */
-    //% blockId="BMP280_POWER_OFF" block="µÍ¹¦ºÄÄ£Ê½"
+    //% blockId="BMP280_POWER_OFF" block="ä½åŠŸè€—æ¨¡å¼"
     //% weight=60 blockGap=8
     export function PowerOff() {
         setreg(0xF4, 0)
@@ -152,9 +152,9 @@ namespace BME280 {
     /**
      * set I2C address
      */
-    //% blockId="BME280_SET_ADDRESS" block="ÉèÖÃµØÖ· %addr"
+    //% blockId="BME280_SET_ADDRESS" block="è®¾ç½®åœ°å€ %addr"
     //% weight=50 blockGap=8
     export function Address(addr: BME280_I2C_ADDRESS) {
         BME280_I2C_ADDR = addr
     }
-}
+} 

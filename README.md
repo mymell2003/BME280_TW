@@ -1,6 +1,6 @@
 # BME280
 
-makecode BME280 »·¾³ÎÂÊª¶È¡¢ÆøÑ¹´«¸ĞÆ÷ micro:bit Èí¼ş°ü  
+makecode BME280 ç¯å¢ƒæ¸©æ¹¿åº¦ã€æ°”å‹ä¼ æ„Ÿå™¨ micro:bit è½¯ä»¶åŒ…  
 
 Author: shaoziyang  
 Date:   2018.Mar  
@@ -9,53 +9,53 @@ Date:   2018.Mar
   
 ![](https://raw.githubusercontent.com/microbit-makecode-packages/BME280_cn/master/bme280.jpg)
 
-## Ê¹ÓÃ·½·¨
+## ä½¿ç”¨æ–¹æ³•
 
-´ò¿ª makecode ±à¼­Æ÷£¬ÔÚÏîÄ¿ÖĞÑ¡ÔñÌí¼ÓÈí¼ş°ü£¬È»ºóÔÚµØÖ·À¸ÊäÈëÏÂÃæÍøÖ·  
+æ‰“å¼€ makecode ç¼–è¾‘å™¨ï¼Œåœ¨é¡¹ç›®ä¸­é€‰æ‹©æ·»åŠ è½¯ä»¶åŒ…ï¼Œç„¶ååœ¨åœ°å€æ è¾“å…¥ä¸‹é¢ç½‘å€  
 
 https://github.com/microbit-makecode-packages/BME280_cn  
 
-ËÑË÷ºó¾Í¿ÉÒÔÌí¼Ó²¢Ê¹ÓÃ±¾Èí¼ş°üÁË¡£
+æœç´¢åå°±å¯ä»¥æ·»åŠ å¹¶ä½¿ç”¨æœ¬è½¯ä»¶åŒ…äº†ã€‚
 
-## I2C µØÖ·  
+## I2C åœ°å€  
 
 - 0x76/0x77  
 
 ## API
 
 - function pressure()  
-»ñÈ¡ÆøÑ¹(hpa)  
+è·å–æ°”å‹(hpa)  
 
 - function temperature()  
-»ñÈ¡ÎÂ¶È(¡æ)
+è·å–æ¸©åº¦(â„ƒ)
 
 - function humidity()
-»ñÈ¡Êª¶È(%)
+è·å–æ¹¿åº¦(%)
 
 - function PowerOn()
-ÔËĞĞÄ£Ê½.
+è¿è¡Œæ¨¡å¼.
 
 - function PowerOff()  
-½øÈëµÍ¹¦ºÄÄ£Ê½  
+è¿›å…¥ä½åŠŸè€—æ¨¡å¼  
 
 - function Address(addr: BME280_I2C_ADDRESS)  
-ÉèÖÃ BME280 I2C µØÖ·£¬µØÖ·¿ÉÒÔÊÇÈçÏÂ²ÎÊı:  
+è®¾ç½® BME280 I2C åœ°å€ï¼Œåœ°å€å¯ä»¥æ˜¯å¦‚ä¸‹å‚æ•°:  
   - BME280_I2C_ADDRESS.ADDR_0x76
   - BME280_I2C_ADDRESS.ADDR_0x77
 
-## ÑİÊ¾
+## æ¼”ç¤º
 
 ![](https://raw.githubusercontent.com/microbit-makecode-packages/BME280_cn/master/demo.jpg)
 
-## ÊÚÈ¨·½Ê½
+## æˆæƒæ–¹å¼
 
 MIT
 
-microbit/micropython ÖĞÎÄÉçÇø°æÈ¨ËùÓĞ (c) 2018  
+microbit/micropython ä¸­æ–‡ç¤¾åŒºç‰ˆæƒæ‰€æœ‰ (c) 2018  
 
-## Ö§³ÖÓ²¼ş
+## æ”¯æŒç¡¬ä»¶
 
 * for PXT/microbit
 
 
-[À´×Ô microbit/micropython ÖĞÎÄÉçÇø](http://www.micropython.org.cn) 
+[æ¥è‡ª microbit/micropython ä¸­æ–‡ç¤¾åŒº](http://www.micropython.org.cn)  

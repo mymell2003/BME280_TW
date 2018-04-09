@@ -1,7 +1,7 @@
 {
     "name": "BME280",
     "version": "1.1.0",
-    "description": "makecode BME280 Êı×ÖÎÂÊª¶È¡¢ÆøÑ¹´«¸ĞÆ÷ micro:bit Èí¼ş°ü",
+    "description": "makecode BME280 æ•°å­—æ¸©æ¹¿åº¦ã€æ°”å‹ä¼ æ„Ÿå™¨ micro:bit è½¯ä»¶åŒ…",
     "license": "MIT",
     "dependencies": {
         "core": "*"
