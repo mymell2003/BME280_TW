@@ -104,7 +104,7 @@ namespace BME280 {
     /**
      * get pressure
      */
-    //% blockId="BMP280_GET_PRESSURE" block="获取气压"
+    //% blockId="BME280_GET_PRESSURE" block="获取气压"
     //% weight=80 blockGap=8
     export function pressure(): number {
         get();
@@ -114,7 +114,7 @@ namespace BME280 {
     /**
      * get temperature
      */
-    //% blockId="BMP280_GET_TEMPERATURE" block="获取温度"
+    //% blockId="BME280_GET_TEMPERATURE" block="获取温度"
     //% weight=80 blockGap=8
     export function temperature(): number {
         get();
@@ -124,7 +124,7 @@ namespace BME280 {
     /**
      * get humidity
      */
-    //% blockId="BMP280_GET_HUMIDITY" block="获取湿度"
+    //% blockId="BME280_GET_HUMIDITY" block="获取湿度"
     //% weight=80 blockGap=8
     export function hunidity(): number {
         get();
@@ -134,7 +134,7 @@ namespace BME280 {
     /**
      * power on
      */
-    //% blockId="BMP280_POWER_ON" block="运行模式"
+    //% blockId="BME280_POWER_ON" block="运行模式"
     //% weight=61 blockGap=8
     export function PowerOn() {
         setreg(0xF4, 0x2F)
@@ -143,7 +143,7 @@ namespace BME280 {
     /**
      * power off
      */
-    //% blockId="BMP280_POWER_OFF" block="低功耗模式"
+    //% blockId="BME280_POWER_OFF" block="低功耗模式"
     //% weight=60 blockGap=8
     export function PowerOff() {
         setreg(0xF4, 0)
