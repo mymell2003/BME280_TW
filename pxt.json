@@ -1,7 +1,7 @@
 {
     "name": "BME280",
     "version": "1.1.0",
-    "description": "makecode BME280 Digital Pressure and Humidity Sensor Package for micro:bit",
+    "description": "makecode BME280 数字温湿度、气压传感器 micro:bit 软件包",
     "license": "MIT",
     "dependencies": {
         "core": "*"
