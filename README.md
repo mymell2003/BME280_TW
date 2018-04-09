@@ -45,7 +45,7 @@ https://github.com/microbit-makecode-packages/BME280_cn
 
 ## 演示
 
-![](https://raw.githubusercontent.com/microbit-makecode-packages/BME280/master/demo.jpg)
+![](https://raw.githubusercontent.com/microbit-makecode-packages/BME280_cn/master/demo.jpg)
 
 ## 授权方式
 
