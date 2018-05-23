@@ -24,7 +24,7 @@ https://github.com/microbit-makecode-packages/BME280_cn
 ## API
 
 - function pressure()  
-获取气压(hpa)  
+获取气压(pa)  
 
 - function temperature()  
 获取温度(℃)
