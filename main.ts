@@ -102,9 +102,9 @@ namespace BME280 {
     }
 
     /**
-     * 获取大气压力（hpa）
+     * 獲取大氣壓力（hpa）
      */
-    //% blockId="BME280_GET_PRESSURE" block="获取气压"
+    //% blockId="BME280_GET_PRESSURE" block="獲取氣壓"
     //% weight=80 blockGap=8
     export function pressure(): number {
         get();
@@ -112,9 +112,9 @@ namespace BME280 {
     }
 
     /**
-     * 获取环境温度（℃）
+     * 獲取環境溫度（℃）
      */
-    //% blockId="BME280_GET_TEMPERATURE" block="获取温度"
+    //% blockId="BME280_GET_TEMPERATURE" block="獲取溫度"
     //% weight=80 blockGap=8
     export function temperature(): number {
         get();
@@ -122,9 +122,9 @@ namespace BME280 {
     }
 
     /**
-     * 获取环境湿度（%）
+     * 獲取環境濕度（%）
      */
-    //% blockId="BME280_GET_HUMIDITY" block="获取湿度"
+    //% blockId="BME280_GET_HUMIDITY" block="獲取濕度"
     //% weight=80 blockGap=8
     export function hunidity(): number {
         get();
@@ -132,16 +132,16 @@ namespace BME280 {
     }
 
     /**
-     * 将传感器设置为运行模式
+     * 將感測器設置為運行模式
      */
-    //% blockId="BME280_POWER_ON" block="运行模式"
+    //% blockId="BME280_POWER_ON" block="運行模式"
     //% weight=61 blockGap=8
     export function PowerOn() {
         setreg(0xF4, 0x2F)
     }
 
     /**
-     * 传感器设置为低功耗模式
+     * 感測器設置為低功耗模式
      */
     //% blockId="BME280_POWER_OFF" block="低功耗模式"
     //% weight=60 blockGap=8
@@ -150,11 +150,11 @@ namespace BME280 {
     }
 
     /**
-     * 设置传感器的 I2C 地址
+     * 設置感測器的 I2C 位址
      */
-    //% blockId="BME280_SET_ADDRESS" block="设置地址 %addr"
+    //% blockId="BME280_SET_ADDRESS" block="設置位址 %addr"
     //% weight=50 blockGap=8
     export function Address(addr: BME280_I2C_ADDRESS) {
         BME280_I2C_ADDR = addr
     }
-} 
+}
