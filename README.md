@@ -5,9 +5,9 @@ makecode BME280 環境溫濕度、氣壓感測器 micro:bit 套裝軟體
 Author: shaoziyang  
 Date:   2018.Mar  
 
-![](https://github.com/mymell2003/BME280_TW/edit/master/icon.png)  
+![](https://github.com/mymell2003/BME280_TW/blob/master/icon.png)  
   
-![](https://github.com/mymell2003/BME280_TW/edit/master/README.md/bme280.jpg)
+![](https://github.com/mymell2003/BME280_TW/blob/master/bme280.jpg)
 
 ## 使用方法
 
