@@ -1,7 +1,7 @@
 {
     "name": "BME280",
     "version": "1.1.0",
-    "description": "makecode BME280 数字温湿度、气压传感器 micro:bit 软件包",
+    "description": "makecode BME280 數字溫濕度、氣壓感測器 micro:bit 套裝軟體",
     "license": "MIT",
     "dependencies": {
         "core": "*"
