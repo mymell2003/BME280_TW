@@ -11,7 +11,7 @@ Date:   2018.Mar
 
 打開 makecode 編輯器，在項目中選擇添加套裝軟體，然後在位址欄輸入下面網址  
 
-https://github.com/microbit-makecode-packages/BME280_TW  
+https://github.com/mymell2003/BME280_TW
 
 搜索後就可以添加並使用本套裝軟體了。
 
